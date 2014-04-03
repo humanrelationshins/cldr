@@ -10,14 +10,6 @@
 
 Quick jump:
 - [About cldr.js?](#about-cldrjs)
-  - [Who uses cldr.js?](who-uses-cldrjs)
-  - [Where to use it?](where-to-use-it)
-  - [Load only the CLDR portion you need](load-only-the-cldr-portion-you-need)
-  - [Instantiate a locale and get it normalized](instantiate-a-locale-and-get-it-normalized)
-  - [Get item given its path](get-item-given-its-path)
-  - [Resolve CLDR inheritances](resolve-CLDR-inheritances)
-  - [Helpers](helpers)
-  - [Browser support](browser-support)
 - [Getting Started](#getting-started)
   - [Usage and installation](usage-and-installation)
   - [How to get CLDR JSON data?](how-to-get-CLDR-JSON-data)
