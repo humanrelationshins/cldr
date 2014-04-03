@@ -14,20 +14,19 @@ Quick jump:
   - [Usage and installation](#usage-and-installation)
   - [How to get CLDR JSON data?](#how-to-get-CLDR-JSON-data)
 - [API](#api)
-  - [Cldr.load( json )](#cldrload-json-)
-  - [cldr = new Cldr( locale )](#cldr--new-cldr-locale-)
-  - [cldr.attributes](#cldr.attributes)
-  - [cldr.get( path )](#cldrget-path-)
-  - [cldr.main( path )](#cldrmain-path-)
-  - [cldr.supplemental( path )](#cldrsupplemental-path-)
-  - [cldr.supplemental.timeData.allowed()](#cldrsupplementaltimedataallowed)
-  - [cldr.supplemental.timeData.preferred()](#cldrsupplementaltimedatapreferred)
-  - [cldr.supplemental.weekData.firstDay()](#cldrsupplementalweekdatafirstday)
-  - [cldr.supplemental.weekData.minDays()](#cldrsupplementalweekdatamindays)
 - [Development / Contributing](#development--contributing)
 
 
 ## About cldr.js?
+
+- [Who uses cldr.js?](#who-uses-cldrjs)
+- [Where to use it?](#where-to-use-it)
+- [Load only the CLDR portion you need](#load-only-the-cldr-portion-you-need)
+- [Instantiate a locale and get it normalized](#instantiate-a-locale-and-get-it-normalized)
+- [Get item given its path](#get-item-given-its-path)
+- [Resolve CLDR inheritances](#resolve-CLDR-inheritances)
+- [Helpers](#helpers)
+- [Browser support](#browser-support)
 
 ### Who uses cldr.js?
 
@@ -327,6 +326,16 @@ It depends on the used modules.
 You must also load any portion of the CLDR data you plan to use in your library or your end-application.
 
 ## API
+- [Cldr.load( json )](#cldrload-json-)
+- [cldr = new Cldr( locale )](#cldr--new-cldr-locale-)
+- [cldr.attributes](#cldr.attributes)
+- [cldr.get( path )](#cldrget-path-)
+- [cldr.main( path )](#cldrmain-path-)
+- [cldr.supplemental( path )](#cldrsupplemental-path-)
+- [cldr.supplemental.timeData.allowed()](#cldrsupplementaltimedataallowed)
+- [cldr.supplemental.timeData.preferred()](#cldrsupplementaltimedatapreferred)
+- [cldr.supplemental.weekData.firstDay()](#cldrsupplementalweekdatafirstday)
+- [cldr.supplemental.weekData.minDays()](#cldrsupplementalweekdatamindays)
 
 ### Cldr.load( json )
 
