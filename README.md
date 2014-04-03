@@ -193,7 +193,7 @@ cldr.js has no external dependencies. You can include it in the script tag of yo
 <script src="cldr.js"></script>
 ```
 
-You can download it by clicking "Download ZIP" in the top right menu of this page.
+[Download it here](https://github.com/rxaviers/cldr/releases).
 
 ```javascript
 // Load the appropriate portion of CLDR JSON data.
