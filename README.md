@@ -8,6 +8,8 @@
 | cldr/unresolved.js | +1.1KB | Provides inheritance support for unresolved data |
 | cldr/supplemental.js | +1.2KB | Provides supplemental helper methods |
 
+[Download it here](https://github.com/rxaviers/cldr/releases).
+
 Quick jump:
 - [About cldr.js?](#about-cldrjs)
 - [Getting Started](#getting-started)
@@ -193,7 +195,7 @@ cldr.js has no external dependencies. You can include it in the script tag of yo
 <script src="cldr.js"></script>
 ```
 
-[Download it here](https://github.com/rxaviers/cldr/releases).
+You can download it [here](https://github.com/rxaviers/cldr/releases).
 
 ```javascript
 // Load the appropriate portion of CLDR JSON data.
