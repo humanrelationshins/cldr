@@ -8,14 +8,32 @@
 | cldr/unresolved.js | +1.1KB | Provides inheritance support for unresolved data |
 | cldr/supplemental.js | +1.2KB | Provides supplemental helper methods |
 
-## Getting Started
-
 Quick jump:
 - [About cldr.js?](#about-cldrjs)
-- [How to get CLDR JSON data?](#how-to-get-cldr-json-data)
-- [Usage and installation](#usage-and-installation)
+  - [Who uses cldr.js?](who-uses-cldrjs)
+  - [Where to use it?](where-to-use-it)
+  - [Load only the CLDR portion you need](load-only-the-cldr-portion-you-need)
+  - [Instantiate a locale and get it normalized](instantiate-a-locale-and-get-it-normalized)
+  - [Get item given its path](get-item-given-its-path)
+  - [Resolve CLDR inheritances](resolve-CLDR-inheritances)
+  - [Helpers](helpers)
+  - [Browser support](browser-support)
+- [Getting Started](#getting-started)
+  - [Usage and installation](usage-and-installation)
+  - [How to get CLDR JSON data?](how-to-get-CLDR-JSON-data)
 - [API](#api)
+  - [Cldr.load( json )](cldrload-json-)
+  - [cldr = new Cldr( locale )](cldr--new-cldr-locale-)
+  - [cldr.attributes](cldr.attributes)
+  - [cldr.get( path )](cldrget-path-)
+  - [cldr.main( path )](cldrmain-path-)
+  - [cldr.supplemental( path )](cldrsupplemental-path-)
+  - [cldr.supplemental.timeData.allowed()](cldrsupplementaltimedataallowed)
+  - [cldr.supplemental.timeData.preferred()](cldrsupplementaltimedatapreferred)
+  - [cldr.supplemental.weekData.firstDay()](cldrsupplementalweekdatafirstday)
+  - [cldr.supplemental.weekData.minDays()](cldrsupplementalweekdatamindays)
 - [Development / Contributing](#development--contributing)
+
 
 ## About cldr.js?
 
@@ -182,7 +200,10 @@ Sniff tests show cldr.js also works on the following browsers:
 
 If you find any bugs, please just let us know. We'll be glad to fix them for the officially supported browsers, or at least update the documentation for the unsupported ones.
 
-## Usage and installation
+
+## Getting Started
+
+### Usage and installation
 
 cldr.js has no external dependencies. You can include it in the script tag of your page, as shown in Getting Started above, and you're ready to go.
 
