@@ -187,7 +187,7 @@ If you find any bugs, please just let us know. We'll be glad to fix them for the
 
 ### Usage and installation
 
-cldr.js has no external dependencies. You can include it in the script tag of your page and you're ready to go. [Download it here](https://github.com/rxaviers/cldr/releases).
+cldr.js has no external dependencies. You can include it in the script tag of your page and you're ready to go. [Download it by clicking here](https://github.com/rxaviers/cldr/releases).
 
 ```html
 <script src="cldr.js"></script>
